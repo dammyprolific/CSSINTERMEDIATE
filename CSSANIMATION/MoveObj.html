@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 50px;
+            width: 150px;
+            height: 105px;
+            position: relative;
+            background-image: url(../3DTransformation/images/flower2.jpeg);
+            background-repeat:no-repeat;
+            animation-name: pdat;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pdat{
+            from {
+                left : 0;
+            }
+            to {
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

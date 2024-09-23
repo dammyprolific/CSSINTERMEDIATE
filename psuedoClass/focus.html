@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            width: 50%;
+            height: 40px;
+            background-color: rgba(88, 96, 216, 0.996);
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            margin: 250px;
+        }
+        .button:focus {
+            outline: 2px dashed blue;
+            outline-offset: 2px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+     <button tabindex="1" class="button">Use your tab key to focus this button</button>
+     <button class="button">Use your tab key to focus this button</button>
+     <button class="button">Use your tab key to focus this button</button>
+    </div>
+</body>
+</html>

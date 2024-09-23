@@ -1,0 +1,13 @@
+body{
+    background-color:gold;
+}
+p{
+    color: blue;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: brown;
+    font-size: 80px;
+    font-family: cursive;
+}
