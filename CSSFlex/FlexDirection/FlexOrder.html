@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer-container {
+            height: 200px;
+            font: 100 24px/200px sans-serif;
+            text-align: center;
+            color: white;
+            display: flex;
+        }
+
+        .outer-container div {
+            width: 33%;
+            flex: 1 1 auto;
+        }
+
+        .red {
+            background: orangered;
+            order: 3;
+        }
+
+        .green {
+            background: yellowgreen;
+            order: 2;
+        }
+
+        .blue {
+            background: steelblue;
+            order: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3</div>
+    </div>
+</body>
+
+</html>
